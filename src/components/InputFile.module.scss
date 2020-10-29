@@ -1,0 +1,23 @@
+.InputFile {
+  margin: 0 auto;
+  position: relative;
+  width: 200px;
+  height: 50px;
+
+  &__input {
+    display: none;
+  }
+
+  &__label {
+    display: block;
+    background: #00937E;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+
+    &:hover {
+      background: #02BCA1;
+    }
+  }
+}
